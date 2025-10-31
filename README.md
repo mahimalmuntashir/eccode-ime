@@ -103,7 +103,7 @@ Space / Enter: Commit the first candidate from the list.
 Esc: Clear the current code in the input field.
 
 ## **File Structure**
-graphql
+```graphql
  
 ecocode-ime/
 │
@@ -111,7 +111,9 @@ ecocode-ime/
 ├── eccode_dataset.xlsx        # The ECCode dataset (Chinese character mappings)
 ├── requirements.txt           # List of required Python libraries
 └── README.md                  # Instructions on how to use the project
-Dataset Format
+```
+
+## **Dataset Format**
 The app expects an Excel file with the following structure:
 
 A column named “汉字” containing the character.
